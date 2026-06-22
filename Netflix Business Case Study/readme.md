@@ -25,25 +25,42 @@ https://drive.google.com/file/d/1lolab9tA__68MJ0wCSeixvnar-7RKx1K/view?usp=drive
 Key Insights:
 Insights 1
 
-United State produces the most diverse content. India is on second rank in producing the diverse content.________________________________________
+
+- United State produces the most diverse content. 
+- India is on second rank in producing the diverse content.
+________________________________________
 Insights 2
-United State is movie-heavy and also top country in producing TV shows as compare to other countries. India is on second rank in producing Movies but produces less TV shows.
+
+
+- United State is movie-heavy and also top country in producing TV shows as compare to other countries.
+- India is on second rank in producing Movies but produces less TV shows.
 ________________________________________
 Insights 3
-International Movies is the most common genre across countries. ________________________________________
+
+International Movies is the most common genre across countries.
+________________________________________
 Observations
 1990s
-•	Very few movies available on platform.
-•	Mostly older catalog content.
+
+
+- Very few movies available on platform.
+- Mostly older catalog content.
 2000–2010
-•	Gradual increase.
-•	More global expansion.
+
+  
+- Gradual increase.
+- More global expansion.
 2015–2019
-•	Sharp increase.
-•	Peak production and acquisition period.
+
+  
+- Sharp increase.
+- Peak production and acquisition period.
 2020
-•	Slight decline or plateau.
-•	Likely impact of COVID-19 on production.
+
+  
+- Slight decline or plateau.
+- Likely impact of COVID-19 on production.
+
 Pattern Summary
 Period	Trend
 1995–2005	                                      Slow growth
@@ -53,48 +70,63 @@ Period	Trend
 
 ________________________________________
 Insights 4
-Strong growth after 2015 indicates aggressive content expansion.
-Peak years show high investment in original movies.
-Slight drop around 2020 may be due COVID-19 pandemic.
-Continuous high production post-2015 reflects competition with other platforms.
+
+
+- Strong growth after 2015 indicates aggressive content expansion.
+- Peak years show high investment in original movies.
+- Slight drop around 2020 may be due COVID-19 pandemic.
+- Continuous high production post-2015 reflects competition with other platforms.
 ________________________________________
 Insights 5
+
 TV Shows help improve subscriber retention, while Movies drive new subscriptions.
 ________________________________________
 Observations
-•	Peak additions in February, May-June  and October to December Month
-•	High activity also in December
-•	Lowest in August-September
+
+
+- Peak additions in February, May-June  and October to December Month
+- High activity also in December
+- Lowest in August-September
 ________________________________________
 Business Interpretation:
 Best Time to Launch:
 May
-• Summer vacation in many countries
-• High viewer engagement
-• Less competition from traditional TV seasons
+
+
+- Summer vacation in many countries
+- High viewer engagement
+- Less competition from traditional TV seasons
 December
-•	Holiday season
-High binge-watching behavior
+
+
+- Holiday season
+- High binge-watching behavior
 ________________________________________
 
-•  Some actors appear mostly in Movies.
-•  Some actors dominate TV Shows.
-•  Very few actors dominate both categories equally.
-•  Most directors specialize in Movies.
-•  Fewer directors consistently produce multi-season TV Shows.
-•  TV series often involve multiple directors per show.
+- Some actors appear mostly in Movies.
+- Some actors dominate TV Shows.
+- Very few actors dominate both categories equally.
+- Most directors specialize in Movies.
+- Fewer directors consistently produce multi-season TV Shows.
+- TV series often involve multiple directors per show.
 Before 2015
-•	More Movies added than TV Shows
+
+
+- More Movies added than TV Shows
 2015–2019
-•	TV Shows grow faster than Movies
-•	Netflix invests heavily in originals like Stranger Things, House of Cards, etc.
+
+  
+- TV Shows grow faster than Movies
+- Netflix invests heavily in originals like Stranger Things, House of Cards, etc.
 2019–2021
-•	TV Shows often outpace Movies in additions
-•	Especially after binge-watch format success
-•	Movies still added, but TV Show growth is stronger
+
+  
+- TV Shows often outpace Movies in additions
+- Especially after binge-watch format success
+- Movies still added, but TV Show growth is stronger
 ________________________________________
-Zimbabwe- Movie-heavy actors
-USA → Balanced industry
+- Zimbabwe- Movie-heavy actors
+- USA → Balanced industry
 ________________________________________
 Visualizations:
 
@@ -109,25 +141,32 @@ ________________________________________
 Conclusion:
 Business Insights:
 TV Shows Might Be Focused More Recently because:
-Retention
-TV Shows keep subscribers longer (multi-season engagement)
-Binge-watching Behaviour
-Episodic content increases total watch time
-Global Local Content
-Different countries produce localized series
+
+
+- Retention
+- TV Shows keep subscribers longer (multi-season engagement)
+- Binge-watching Behaviour
+- Episodic content increases total watch time
+- Global Local Content
+- Different countries produce localized series
+
 Netflix shows a stronger growth trend in TV Shows than Movies in recent years, and strategically this makes sense because:
-	TV Shows drive longer user engagement
-	They build series brand loyalty
-	They are better for global content strategies
-	They reduce churn compared to single movies
+
+
+- TV Shows drive longer user engagement
+- They build series brand loyalty
+- They are better for global content strategies
+- They reduce churn compared to single movies
 ________________________________________
 Business Recommendations:
-	Sign actors with strong repeat presence in successful genres.
-	Invest in directors who have consistent high-performing series.
-	Identify cross-over talent (actors successful in both movies & series).
-	Promote regional stars globally.
-	Use country-specific content strategy
-	Invest in high-performing genres per region
-	Promote regional hits globally
-	Increase series production in movie-heavy countries
+
+
+- Sign actors with strong repeat presence in successful genres.
+- Invest in directors who have consistent high-performing series.
+- Identify cross-over talent (actors successful in both movies & series).
+- Promote regional stars globally.
+- Use country-specific content strategy
+- Invest in high-performing genres per region
+- Promote regional hits globally
+- Increase series production in movie-heavy countries
 
