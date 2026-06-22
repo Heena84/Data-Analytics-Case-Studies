@@ -54,14 +54,14 @@ ________________________________________
 Route Insights
 
 
--  FTL routes are generally faster and more efficient than Carting routes.
--  Carting has higher delay variance due to multiple stops. 
+-   FTL routes are generally faster and more efficient than Carting routes.
+-   Carting has higher delay variance due to multiple stops. 
 ________________________________________
 Operational Insights
 
 
--  Certain corridors contribute most deliveries.
--  Some warehouses repeatedly show delays. 
+-   Certain corridors contribute most deliveries.
+-   Some warehouses repeatedly show delays. 
 ________________________________________
 Business Insights
 
