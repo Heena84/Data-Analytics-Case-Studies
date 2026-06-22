@@ -39,9 +39,10 @@ ________________________________________
 Important EDA Insights : 
 ________________________________________
 Time-Based Insights
-•	Actual delivery time is generally higher than OSRM estimated time. 
-•	Longer routes show higher delivery variability. 
-•	Peak-hour trips take significantly more time. 
+
+•	 Actual delivery time is generally higher than OSRM estimated time. 
+•  Longer routes show higher delivery variability. 
+•	 Peak-hour trips take significantly more time. 
 ________________________________________
 Distance Insights
 •	Distance and delivery time are strongly positively correlated. 
