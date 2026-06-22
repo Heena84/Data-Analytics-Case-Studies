@@ -73,6 +73,8 @@ ________________________________________
 
 Visualizations:
 
+
+
 ![Distribution-total-rentals](images/Distribution-total-rentals.png)
 
 ![workingday-vs-rentals](images/workingday-vs-rentals.png)
