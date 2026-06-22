@@ -96,7 +96,6 @@ Visualizations:
 ![Age Distribution](images/Age-Distribution.png)
 
 
-
 Conclusion:
 
 Overall Business Insights:
