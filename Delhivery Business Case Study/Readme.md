@@ -48,8 +48,8 @@ ________________________________________
 Distance Insights
 
 
-•	Distance and delivery time are strongly positively correlated. 
-•	Some trips have unusually high delivery time despite shorter distance → operational inefficiencies. 
+-	Distance and delivery time are strongly positively correlated. 
+-	Some trips have unusually high delivery time despite shorter distance → operational inefficiencies. 
 ________________________________________
 Route Insights
 •	FTL routes are generally faster and more efficient than Carting routes. 
