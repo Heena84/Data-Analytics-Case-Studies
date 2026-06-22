@@ -23,6 +23,7 @@ https://drive.google.com/file/d/1lolab9tA__68MJ0wCSeixvnar-7RKx1K/view?usp=drive
 | Netflix Business Case Study-Heena Khan.pdf | Project report |
 
 Key Insights:
+
 Insights 1
 
 
@@ -61,13 +62,14 @@ Observations
 - Slight decline or plateau.
 - Likely impact of COVID-19 on production.
 
-Pattern Summary
-Period	Trend
-1995–2005	                                      Slow growth
-2006–2014	                                     Moderate increase
-2015–2019	                                     Rapid growth
-2020+	                                     Slight drop / stabilization
+### Pattern Summary
 
+| Period | Trend |
+| :--- | :--- |
+| 1995–2005 | Slow growth |
+| 2006–2014 | Moderate increase |
+| 2015–2019 | Rapid growth |
+| 2020+ | Slight drop / stabilization |
 ________________________________________
 Insights 4
 
