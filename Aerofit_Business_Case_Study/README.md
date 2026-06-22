@@ -90,10 +90,22 @@ Insight
 The descriptive statistics show that AeroFit customers are primarily young to middle-aged, well-educated individuals with moderate fitness levels who plan to use the treadmill regularly. Income distribution indicates the presence of both mid-level and high-income customers, suggesting demand for both entry-level and premium treadmill products.
 
 Visualizations:
- 	 
-![Age Distribution](images/Age-Distribution.png)
+![Product-Purchase-Distribution](images/Product-Purchase-Distribution.png)
 
- 	 
+![Age-Distribution](images/Age-Distribution.png)
+
+![Product-Vs-Gender](images/Product-Vs-Gender.png)
+
+![Marital-Status](images/Marital-Status.png)
+
+![Outliers-Income](images/Outliers-Income.png)
+
+![Outliers-Miles](images/Outliers-Miles.png)
+
+![Product-Vs-Income](images/Product-Vs-Income.png)
+   
+![Age Distribution](images/Age-Distribution.png)
+	 
 ![Heatmap](images/Heatmap.png)
 
 
