@@ -35,7 +35,9 @@ https://drive.google.com/file/d/1iIRZzymTN4JMoiUSHNKa8S2pXznHWsj9/view?usp=drive
 | Heena_Delhivery Case Study.pdf | Project report |
 
 Key Insights:
+________________________________________
 Important EDA Insights : 
+________________________________________
 Time-Based Insights
 •	Actual delivery time is generally higher than OSRM estimated time. 
 •	Longer routes show higher delivery variability. 
