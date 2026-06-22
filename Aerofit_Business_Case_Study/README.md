@@ -91,9 +91,9 @@ The descriptive statistics show that AeroFit customers are primarily young to mi
 
 Visualizations:
  	 
- 	 ![Age Distribution](Aerofit_Business_Case_Study/images/Age-Distribution.png)
+
  	 
- 	 
+ 	 ![Age Distribution](https://github.com/Heena84/Data-Analytics-Case-Studies/blob/731faf27a1057a5714e9d2b9925fed44658b3611/Aerofit_Business_Case_Study/images/Age-Distribution.png)
  
 
 
