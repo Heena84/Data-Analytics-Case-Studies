@@ -73,19 +73,19 @@ ________________________________________
 
 Visualizations:
 
-![ Distribution-total-rentals](images/ Distribution-total-rentals.png)
+![Distribution-total-rentals](images/Distribution-total-rentals.png)
 
-![ workingday-vs-rentals](images/ workingday-vs-rentals.png)
+![workingday-vs-rentals](images/workingday-vs-rentals.png)
 
-![ season-vs-rentals](images/ season-vs-rentals.png)
+![season-vs-rentals](images/season-vs-rentals.png)
 
-![ weather-vs-rentals](images/ weather-vs-rentals.png)
+![weather-vs-rentals](images/weather-vs-rentals.png)
 
-![ Heatmap](images/ Heatmap.png)
+![Heatmap](images/Heatmap.png)
 
-![ Density-count](images/ Density-count.png)
+![Density-count](images/Density-count.png)
 
-![ Density-vs-count](images/ Density-vs-count.png)
+![Density-vs-count](images/Density-vs-count.png)
 
 
 ________________________________________
