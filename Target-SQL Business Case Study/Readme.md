@@ -56,7 +56,7 @@ ________________________________________
 Visualizations:
 
 
-![ I-Aimages/(I-A.png)
+![ I-A](images/I-A.png)
 ________________________________________
 
 Conclusion:
