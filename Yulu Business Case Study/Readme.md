@@ -1,10 +1,12 @@
-Project Name : Yulu - Hypothesis Testing
+# Project Name : Yulu - Hypothesis Testing
 
-Objective : 
+## Objective : 
 
 The company wants to know:
-•	Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
-•	How well those variables describe the electric cycle demands
+
+
+- Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
+- How well those variables describe the electric cycle demands
 
 
 ### About the Dataset
@@ -15,7 +17,7 @@ The company wants to know:
 
 *Note: The raw dataset is omitted from this repository to protect data privacy and intellectual property.*
 
-Tools Used:
+### Tools Used:
 
 - Python
 - Pandas
@@ -23,7 +25,7 @@ Tools Used:
 - Matplotlib
 - Seaborn
   
-Workflow :
+### Workflow :
 
 1.	Data Cleaning
 2.	Exploratory Data Analysis
@@ -31,21 +33,23 @@ Workflow :
 4.	Visualization
 5.	Business Insights
    
-Files Included :
+### Files Included :
 
 | File | Description |
+
 | Yulu_Business_Case_Study_Heena.ipynb| Analysis notebook |
+
 | Business Case Study-Yulu-Heena Khan.pdf| Project report |
 
-Key Insights:
+### Key Insights:
 
-Insights 1
+### Insights 1
 
 
 - Rental count is right-skewed
 - Most rentals are concentrated in lower-to-medium range.
 ________________________________________
-Insights 2
+### Insights 2
 
 
 - Rentals appear slightly higher on working days
@@ -54,7 +58,7 @@ Insights 2
 - Clear weather has highest rentals
 - Bad weather significantly reduces rentals
 ________________________________________
-Statistical Hypothesis Testing
+### Statistical Hypothesis Testing
 
 
 Is there any significant difference between the no. of bike rides on weekdays and weekends?
@@ -71,7 +75,7 @@ H0:μ1>=μ2
 
 ________________________________________
 
-Visualizations:
+## Visualizations:
 
 
 
@@ -92,9 +96,9 @@ Visualizations:
 
 ________________________________________
 
-Conclusion:
+## Conclusion:
 
-EDA based insights –
+### EDA based insights –
 
 
 - Total 10,886 rows were present in the data set.
@@ -105,7 +109,7 @@ EDA based insights –
 - Dropping casual & registered columns to avoid multicollinearity.
 - Outlier values were found in the 'count' column.
 
-Insights from hypothesis testing 
+### Insights from hypothesis testing 
 
 
 - The no. of bikes rented on weekdays is comparatively higher than on weekends.
@@ -117,9 +121,9 @@ Insights from hypothesis testing
 - The distribution of 'count' column wasn't actually normal or near normal.
 - Infact the column's distribution is found to be a bit skewed towards right.
 ________________________________________
-Business Recommendations:
+## Business Recommendations:
 
-Generic recommendations -
+### Generic recommendations -
 
 
 - The demand of bikes on rent are usually higher during Weekdays.
@@ -127,9 +131,9 @@ Generic recommendations -
 - The chances of person renting a bike are usually higher during Season 3.
 - The chances of person renting a bike are usually higher during Weather condition 1.
 
-Business Recommendations for Yulu
+## Business Recommendations for Yulu
 
-Increase Supply During High Demand
+### Increase Supply During High Demand
 
 
 - Deploy more cycles during:
@@ -137,18 +141,18 @@ Increase Supply During High Demand
 - Office hours
 - Summer/fall seasons 
 
-Weather-Based Dynamic Planning
+### Weather-Based Dynamic Planning
 
 
 - Reduce deployment during heavy rain or storms
 - Introduce weather-based pricing/promotions 
 
-Corporate Commuter Focus
+### Corporate Commuter Focus
 
 
 - Since working days show higher rentals:
 - Partner with IT parks
 - Expand metro connectivity zones
   
-We recommend the company to maintain the bike stocks accordingly.
+Recommend the company to maintain the bike stocks accordingly.
 
