@@ -55,7 +55,7 @@ Trend Analysis 4:
 ________________________________________
 Visualizations:
 
-![ I-Aimages/ I-A.png)
+![ I-Aimages/(I-A.png)
 ________________________________________
 
 Conclusion:
