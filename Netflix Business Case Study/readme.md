@@ -1,46 +1,55 @@
-Project Name : Netflix : Data Exploration and Visualisation
+# Project Name : Netflix : Data Exploration and Visualisation
 
-Objective : 
+## Objective : 
 Analyze the data and generate insights that could help Netflix in deciding which type of shows/movies to produce and how they can grow the business in different countries.
 
-Dataset :
-https://drive.google.com/file/d/1lolab9tA__68MJ0wCSeixvnar-7RKx1K/view?usp=drive_link
-Tools Used:
+### Tools Used:
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-Workflow :
+
+### About the Dataset
+* **Source:** Confidential / Proprietary data source.
+* **Size:** 8807 rows and 12 features. 
+* **Key Variables:**Show_id, Type, Title, Director, Country, Date_added, Release_year, Rating etc.
+  
+*Note: The raw dataset is omitted from this repository to protect data privacy and intellectual property.*
+
+  
+### Workflow :
 1.	Data Cleaning
 2.	Exploratory Data Analysis
 3.	Visualization
 4.	Business Insights
-Files Included :
+   
+### Files Included :
 | File | Description |
+
 | Netflix_Business_Case_Study_Heena.ipynb | Analysis notebook |
-https://drive.google.com/file/d/1lolab9tA__68MJ0wCSeixvnar-7RKx1K/view?usp=drive_link |Dataset |
+
 | Netflix Business Case Study-Heena Khan.pdf | Project report |
 
-Key Insights:
+### Key Insights:
 
-Insights 1
+### Insights 1
 
 
 - United State produces the most diverse content. 
 - India is on second rank in producing the diverse content.
 ________________________________________
-Insights 2
+### Insights 2
 
 
 - United State is movie-heavy and also top country in producing TV shows as compare to other countries.
 - India is on second rank in producing Movies but produces less TV shows.
 ________________________________________
-Insights 3
+### Insights 3
 
 International Movies is the most common genre across countries.
 ________________________________________
-Observations
+### Observations
 1990s
 
 
@@ -71,7 +80,7 @@ Observations
 | 2015–2019 | Rapid growth |
 | 2020+ | Slight drop / stabilization |
 ________________________________________
-Insights 4
+### Insights 4
 
 
 - Strong growth after 2015 indicates aggressive content expansion.
@@ -79,18 +88,18 @@ Insights 4
 - Slight drop around 2020 may be due COVID-19 pandemic.
 - Continuous high production post-2015 reflects competition with other platforms.
 ________________________________________
-Insights 5
+### Insights 5
 
 TV Shows help improve subscriber retention, while Movies drive new subscriptions.
 ________________________________________
-Observations
+### Observations
 
 
 - Peak additions in February, May-June  and October to December Month
 - High activity also in December
 - Lowest in August-September
 ________________________________________
-Business Interpretation:
+## Business Interpretation:
 Best Time to Launch:
 May
 
@@ -130,7 +139,7 @@ ________________________________________
 - Zimbabwe- Movie-heavy actors
 - USA → Balanced industry
 ________________________________________
-Visualizations:
+## Visualizations:
 
 ![ Contries-by-content](images/Contries-by-content.png)
 ![ Movies-Vs-Shows-by-country](images/Movies-Vs-Shows-by-country.png)
@@ -140,8 +149,8 @@ Visualizations:
 
 ________________________________________
 
-Conclusion:
-Business Insights:
+## Conclusion:
+### Business Insights:
 TV Shows Might Be Focused More Recently because:
 
 
@@ -160,7 +169,7 @@ Netflix shows a stronger growth trend in TV Shows than Movies in recent years, a
 - They are better for global content strategies
 - They reduce churn compared to single movies
 ________________________________________
-Business Recommendations:
+## Business Recommendations:
 
 
 - Sign actors with strong repeat presence in successful genres.
