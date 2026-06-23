@@ -1,7 +1,7 @@
-Project Name : Walmart - Confidence Interval and CLT  
+# Project Name : Walmart - Confidence Interval and CLT  
 
-Objective : 
-Business Problem
+### Objective : 
+### Business Problem
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men? (Assume 50 million customers are male and 50 million are female).
 
 
@@ -12,7 +12,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 
 *Note: The raw dataset is omitted from this repository to protect data privacy and intellectual property.*
 
-Tools Used:
+### Tools Used:
 
 
 - Python
@@ -21,7 +21,7 @@ Tools Used:
 - Matplotlib
 - Seaborn
   
-Workflow :
+### Workflow :
 
 
 1.	Data Cleaning
@@ -30,7 +30,7 @@ Workflow :
 4.	Visualization
 5.	Business Insights
    
-Files Included :
+### Files Included :
 
 | File | Description |
 
@@ -39,9 +39,9 @@ Files Included :
 | WallMart_Business_Case_Study_Heena.pdf| Project report |
 
 ________________________________________
-Key Insights:
+### Key Insights:
 
-Insights 1
+### Insights 1
 
 
 - If male_mean > female_mean → men spend more
@@ -53,13 +53,13 @@ Men spend slightly more per transaction
 - Male Mean =    9437.5260
 - Female Mean= 8734.5657 
 ________________________________________
-Insights 2
+### Insights 2
 
 
 - Larger sample → more stable mean
 - Distribution becomes normal (bell curve)
 ________________________________________
-Insights 3
+### Insights 3
 
 
 - If overlap → same marketing strategy works
@@ -68,7 +68,7 @@ Insights 3
 - Unmarried → personal purchases
 
 ________________________________________
-Visualizations:
+## Visualizations:
 
 
 ![Boxplot-Purchase-amount](images/Boxplot-Purchase-amount.png)
@@ -79,8 +79,8 @@ Visualizations:
 ![ Avg-purchase-by-Age-group](images/Avg-purchase-by-Age-group.png)
 ________________________________________
 
-Conclusion:
-Business Conclusions
+## Conclusion:
+### Business Conclusions
 Gender Insights
 
 
@@ -98,8 +98,8 @@ Age Insights
 
 26–35 is the most valuable segment
 ________________________________________
-Business Recommendations:
-Recommendations:
+## Business Recommendations:
+### Recommendations:
 Marketing Strategy
 
 
