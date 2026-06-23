@@ -1,4 +1,4 @@
-Project Name : Walmart - Confidence Interval and CLT  
+Project Name : Target - SQL  
 
 Objective : 
 Business Problem
@@ -55,8 +55,25 @@ Trend Analysis 4:
 ________________________________________
 Visualizations:
 
-
 ![](images/I-A.png) 
+![](images/I-B.png) 
+![](images/I-C.png) 
+![](images/II-A.png) 
+![](images/II-B.png) 
+![](images/II-C.png) 
+![](images/III-A-1.png) 
+![](images/III-A-4.png) 
+![](images/III-B.png) 
+![](images/IV-A.png) 
+![](images/IV-B.png) 
+![](images/IV-C.png) 
+![](images/V-A.png) 
+![](images/V-B.png) 
+![](images/V-C.png) 
+![](images/V-D.png) 
+![](images/VI-A.png) 
+![](images/VI-B.png) 
+
 ________________________________________
 
 Conclusion:
@@ -105,6 +122,5 @@ Business Recommendations
 •	Encourage installment-based purchasing through promotional financing options. 
 •	Offer discounts or cashback on higher-value transactions. 
 •	Design campaigns aimed at increasing average basket size and premium product adoption. 
-
 
 
