@@ -11,6 +11,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 * **Key Variables:** Occupation, City_Category, Marital_Status, Product_Category.
 
 *Note: The raw dataset is omitted from this repository to protect data privacy and intellectual property.*
+
 Tools Used:
 
 
