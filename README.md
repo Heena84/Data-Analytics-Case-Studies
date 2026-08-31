@@ -39,6 +39,8 @@ This repository contains real-world data analytics projects completed using Pyth
 - Outlier Detection
 - Logistics Insights
 
+### 6. Delhivery : Linear Regression
+- 
 
 ## Tools Used
 - Python
