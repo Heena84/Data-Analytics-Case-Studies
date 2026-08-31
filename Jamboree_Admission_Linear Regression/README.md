@@ -107,22 +107,28 @@ An MAE of approximately **0.043** means that the model's predicted admission pro
 <table>
   <tr>
     <td align="center">
-      <img src="images/correlation_heatmap.png" width="400"><br>
-      <b>Correlation Heatmap</b>
+      <img src="images/GER_Vs_Chance of admit.png" width="400"><br>
+      <b>GER_Vs_Chance of admit</b>
     </td>
     <td align="center">
-      <img src="images/cgpa_vs_admit.png" width="400"><br>
+      <img src="images/CGPA_Vs_Chance of admit.png" width="400"><br>
       <b>CGPA vs Chance of Admit</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/residual_plot.png" width="400"><br>
+      <img src="images/Residual Plot.png" width="400"><br>
       <b>Residual Analysis</b>
     </td>
     <td align="center">
-      <img src="images/actual_vs_predicted.png" width="400"><br>
+      <img src="images/Actual_Vs_Predicted.png" width="400"><br>
       <b>Actual vs Predicted</b>
+    </td>
+  </tr>
+  <tr>
+  <td align="center">
+      <img src="images/Residual QQ Plot.png" width="400"><br>
+      <b>QQ Plot of Residual</b>
     </td>
   </tr>
 </table>
