@@ -116,6 +116,62 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 
 ## 📸 Visualizations
 
+
+<table>
+<tr>
+<td align="center">
+<img src="Images/Loan_status_Vs_Loan_amount.png" width="400"><br>
+<b>Loan Status Distribution</b>
+</td>
+<td align="center">
+<img src="Images/Distribution%201.png" width="400"><br>
+<b>Distribution 1</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="Images/Distribution%202.png" width="400"><br>
+<b>Distribution 2</b>
+</td>
+<td align="center">
+<img src="Images/Distribution%203.png" width="400"><br>
+<b>Distribution 3</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="Images/Distribution%204.png" width="400"><br>
+<b>Distribution 4</b>
+</td>
+<td align="center">
+<img src="Images/Confusion_Matrix.png" width="400"><br>
+<b>Confusion Matrix</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="Images/ROC_AUC_Curve.png" width="400"><br>
+<b>ROC-AUC Curve</b>
+</td>
+<td align="center">
+<img src="Images/Precision_Recall_Curve.png" width="400"><br>
+<b>Precision-Recall Curve</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="Images/Loan_amount_Vs_Installment.png" width="400"><br>
+<b>Loan Amount vs Installment</b>
+</td>
+<td></td>
+</tr>
+</table>
+
+
 ![Loan Status vs Loan Amount](Images/Loan_status_Vs_Loan_amount.png)
 
 ![Distribution 1](Images/Distribution1.png)
