@@ -140,19 +140,17 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
       <img src="images/Distribution 4.png" width="400"><br>
       <b>Distribution 4</b>
     </td>
-  </tr>
-
-  <tr>
     <td align="center">
       <img src="images/Confusion_Matrix.png" width="400"><br>
       <b>Confusion Matrix</b>
     </td>
-    <td align="center">
+  </tr>
+
+  <tr>
+   <td align="center">
       <img src="images/ROC_AUC_Curve.png" width="400"><br>
       <b>ROC Curve</b>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="images/Precision_Recall_Curve.png" width="400"><br>
       <b>Precision-Recall Curve</b>
