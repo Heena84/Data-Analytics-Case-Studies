@@ -116,25 +116,23 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 
 ## 📸 Visualizations
 
-## 📸 Visualizations
+![Loan Status vs Loan Amount](Images/Loan_status_Vs_Loan_amount.png)
 
-![Loan Status vs Loan Amount](images/Loan_status_Vs_Loan_amount.png)
+![Distribution 1](Images/Distribution1.png)
 
-![Distribution 1](images/Distribution1.png)
+![Distribution 2](Images/Distribution2.png)
 
-![Distribution 2](images/Distribution2.png)
+![Distribution 3](Images/Distribution3.png)
 
-![Distribution 3](images/Distribution3.png)
+![Distribution 4](Images/Distribution4.png)
 
-![Distribution 4](images/Distribution4.png)
+![Confusion Matrix](Images/Confusion_Matrix.png)
 
-![Confusion Matrix](images/Confusion_Matrix.png)
+![ROC-AUC Curve](Images/ROC_AUC_Curve.png)
 
-![ROC-AUC Curve](images/ROC_AUC_Curve.png)
+![Precision-Recall Curve](Images/Precision_Recall_Curve.png)
 
-![Precision-Recall Curve](images/Precision_Recall_Curve.png)
-
-![Loan Amount vs Installment](images/Loan_amount_Vs_Installment.png)
+![Loan Amount vs Installment](Images/Loan_amount_Vs_Installment.png)
 
 
 ## 🔎 Key Insights
