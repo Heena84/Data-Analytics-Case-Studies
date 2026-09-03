@@ -122,25 +122,25 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 <b>Loan Status Distribution</b>
 </td>
 <td align="center">
-<img src="images/Distribution1.png" width="400"><br>
+<img src="images/Distribution%201.png" width="400"><br>
 <b>Distribution 1</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="images/Distribution2.png" width="400"><br>
+<img src="images/Distribution%202.png" width="400"><br>
 <b>Distribution 2</b>
 </td>
 <td align="center">
-<img src="images/Distribution3.png" width="400"><br>
+<img src="images/Distribution%203.png" width="400"><br>
 <b>Distribution 3</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="images/Distribution4.png" width="400"><br>
+<img src="images/Distribution%204.png" width="400"><br>
 <b>Distribution 4</b>
 </td>
 <td align="center">
