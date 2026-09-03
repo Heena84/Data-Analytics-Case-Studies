@@ -125,25 +125,25 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
   </tr>
   <tr>
     <td align="center">
-      <img src="images/Distribution 1.png" width="400"><br>
+      <img src="images/Distribution1.png" width="400"><br>
       <b>Distribution 1</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/Distribution 2.png" width="400"><br>
+      <img src="images/Distribution2.png" width="400"><br>
       <b>Distribution 2</b>
    </td>
   </tr>
   <tr>
   <td align="center">
-      <img src="images/Distribution 3.png" width="400"><br>
+      <img src="images/Distribution3.png" width="400"><br>
       <b>Distribution 3</b>
   </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/Distribution 4.png" width="400"><br>
+      <img src="images/Distribution4.png" width="400"><br>
       <b>Distribution 4</b>
     </td>
   </tr>
