@@ -116,7 +116,6 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 
 ## 📸 Visualizations
 
-
 <table>
 <tr>
 <td align="center">
@@ -124,25 +123,25 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 <b>Loan Status Distribution</b>
 </td>
 <td align="center">
-<img src="Images/Distribution%201.png" width="400"><br>
+<img src="Images/Distribution1.png" width="400"><br>
 <b>Distribution 1</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="Images/Distribution%202.png" width="400"><br>
+<img src="Images/Distribution2.png" width="400"><br>
 <b>Distribution 2</b>
 </td>
 <td align="center">
-<img src="Images/Distribution%203.png" width="400"><br>
+<img src="Images/Distribution3.png" width="400"><br>
 <b>Distribution 3</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="Images/Distribution%204.png" width="400"><br>
+<img src="Images/Distribution4.png" width="400"><br>
 <b>Distribution 4</b>
 </td>
 <td align="center">
