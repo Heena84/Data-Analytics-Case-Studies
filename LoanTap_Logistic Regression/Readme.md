@@ -115,59 +115,27 @@ Therefore, **Recall and Precision for the Charged Off class are particularly imp
 ---
 
 ## 📸 Visualizations
-<table>
-<tr>
-<td align="center">
-<img src="images/Loan_status_Vs_Loan_amount.png" width="400"><br>
-<b>Loan Status Distribution</b>
-</td>
-<td align="center">
-<img src="images/Distribution%201.png" width="400"><br>
-<b>Distribution 1</b>
-</td>
-</tr>
 
-<tr>
-<td align="center">
-<img src="images/Distribution%202.png" width="400"><br>
-<b>Distribution 2</b>
-</td>
-<td align="center">
-<img src="images/Distribution%203.png" width="400"><br>
-<b>Distribution 3</b>
-</td>
-</tr>
+## 📸 Visualizations
 
-<tr>
-<td align="center">
-<img src="images/Distribution%204.png" width="400"><br>
-<b>Distribution 4</b>
-</td>
-<td align="center">
-<img src="images/Confusion_Matrix.png" width="400"><br>
-<b>Confusion Matrix</b>
-</td>
-</tr>
+![Loan Status vs Loan Amount](images/Loan_status_Vs_Loan_amount.png)
 
-<tr>
-<td align="center">
-<img src="images/ROC_AUC_Curve.png" width="400"><br>
-<b>ROC-AUC Curve</b>
-</td>
-<td align="center">
-<img src="images/Precision_Recall_Curve.png" width="400"><br>
-<b>Precision-Recall Curve</b>
-</td>
-</tr>
+![Distribution 1](images/Distribution1.png)
 
-<tr>
-<td align="center">
-<img src="images/Loan_amount_Vs_Installment.png" width="400"><br>
-<b>Loan Amount vs Installment</b>
-</td>
-<td></td>
-</tr>
-</table>
+![Distribution 2](images/Distribution2.png)
+
+![Distribution 3](images/Distribution3.png)
+
+![Distribution 4](images/Distribution4.png)
+
+![Confusion Matrix](images/Confusion_Matrix.png)
+
+![ROC-AUC Curve](images/ROC_AUC_Curve.png)
+
+![Precision-Recall Curve](images/Precision_Recall_Curve.png)
+
+![Loan Amount vs Installment](images/Loan_amount_Vs_Installment.png)
+
 
 ## 🔎 Key Insights
 
