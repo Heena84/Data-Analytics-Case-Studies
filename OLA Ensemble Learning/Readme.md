@@ -98,9 +98,10 @@ As a data scientist in Ola's Analytics Department, the task is to **predict whet
    - `Rating_Increase`: 1 if the driver's quarterly rating rose at any point
    - `Income_Increase`: 1 if the driver's income rose at any point
    - `Target`: 1 if `LastWorkingDate` is present (driver left), else 0
-   - `Tenure_Years`, `Year_of_Joining`, `Reportings` (number of monthly reports)
+   - `Year_of_Joining`, `Reportings` (number of monthly reports)
+   - `Tenure_Years` was created for analysis but **excluded from the model** because it is derived from `LastWorkingDate` (target leakage)
    - Mean/max/last aggregates of income, grade, business value and rating
-5. **Encoding:** one-hot encoding of `City` (`drop_first=True`), giving 46 features.
+5. **Encoding:** one-hot encoding of `City` (`drop_first=True`), giving 45 features.
 6. **Train/test split:** 80/20, stratified, `random_state=42`.
 7. **KNN imputation** (`n_neighbors=5`), fitted on the training set only to avoid leakage.
 8. **Standardisation** with `StandardScaler` (fitted on train only).
@@ -119,7 +120,7 @@ As a data scientist in Ola's Analytics Department, the task is to **predict whet
 | **Rating improvement** | **80.49%** of drivers with no rating increase left, versus **43.99%** of those whose rating increased. |
 | **Grade** | Attrition falls as grade rises: Grade 1 ≈ 80.4%, Grade 2 ≈ 70.2%, Grades 3–5 ≈ 51–54%. The relationship is not perfectly monotonic (Grade 5 is not the lowest). |
 | **City** | Wide variation across cities: C13 (81.7%), C17 (77.5%), C23 (77.0%), C2 (76.4%) are the highest. |
-| **Tenure** | Median tenure of churned drivers is 0.48 years vs 0.58 years for retained, pointing to early tenure as a risk period. |
+| **Tenure** | Median tenure of churned drivers is 0.48 years vs 0.58 years for retained, pointing to early tenure as a risk period (descriptive only; see [Limitations](#-limitations--future-work)). |
 | **Trend vs snapshot** | Performance *trajectory* (is the rating/income improving?) is more informative than a single snapshot value. |
 
 > ⚠️ These are observed associations in this dataset and do not prove causation. See [Limitations](#-limitations--future-work).
@@ -128,28 +129,28 @@ As a data scientist in Ola's Analytics Department, the task is to **predict whet
 
 ## 📈 Model Results
 
-Evaluated on the held-out test set (477 drivers; 324 churned, 153 retained).
+Evaluated on the held-out test set (477 drivers; 324 churned, 153 retained). `Tenure_Years` was excluded from the features to avoid target leakage.
 
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---|---|---|---|---|
-| Random Forest | 0.9182 | 0.9279 | **0.9537** | 0.9406 | 0.9639 |
-| Tuned Random Forest | 0.9203 | 0.9333 | 0.9506 | 0.9419 | 0.9627 |
-| Gradient Boosting | **0.9224** | **0.9443** | 0.9414 | **0.9428** | 0.9677 |
-| Tuned Gradient Boosting | 0.9161 | 0.9329 | 0.9444 | 0.9387 | **0.9688** |
+| Random Forest | 0.9120 | 0.9196 | **0.9537** | 0.9364 | 0.9516 |
+| Tuned Random Forest | 0.9057 | 0.9215 | 0.9414 | 0.9313 | 0.9531 |
+| Gradient Boosting | **0.9161** | **0.9383** | 0.9383 | **0.9383** | **0.9607** |
+| Tuned Gradient Boosting | 0.9099 | 0.9377 | 0.9290 | 0.9333 | 0.9565 |
 
 **Confusion matrices (test set)**
 
 | | RF: Pred 0 | RF: Pred 1 | GB: Pred 0 | GB: Pred 1 |
 |---|---|---|---|---|
-| **Actual 0** | 129 | 24 | 135 | 18 |
-| **Actual 1** | 15 | 309 | 19 | 305 |
+| **Actual 0** | 126 | 27 | 133 | 20 |
+| **Actual 1** | 15 | 309 | 20 | 304 |
 
 **Takeaways**
 
-- All four models perform similarly (ROC-AUC ≈ 0.96–0.97).
+- All four models perform similarly (ROC-AUC ≈ 0.95–0.96).
 - Random Forest has the highest churn **recall** (309 of 324 churners caught; 15 missed).
-- Gradient Boosting has the best accuracy, precision and F1.
-- Tuned Gradient Boosting has the highest ROC-AUC, but tuning did **not** improve every metric. Tuned Random Forest's ROC-AUC dropped slightly (0.9639 → 0.9627), so each tuned model was checked on the same hold-out set rather than assumed to be better.
+- Gradient Boosting has the best accuracy, precision, F1 and ROC-AUC.
+- Hyperparameter tuning did **not** improve the models overall. Tuned Random Forest gained slightly in ROC-AUC (0.9516 → 0.9531) but lost accuracy, recall and F1, and tuned Gradient Boosting scored lower on every metric. Each tuned model was therefore compared on the same hold-out set rather than assumed to be better.
 
 ---
 
@@ -157,13 +158,13 @@ Evaluated on the held-out test set (477 drivers; 324 churned, 153 retained).
 
 | Rank | Random Forest | Gradient Boosting |
 |---|---|---|
-| 1 | Year_of_Joining (0.170) | Quarterly_Rating (0.380) |
-| 2 | Quarterly_Rating (0.118) | Year_of_Joining (0.345) |
-| 3 | Tenure_Years (0.092) | Reportings (0.132) |
-| 4 | Reportings (0.080) | Tenure_Years (0.053) |
-| 5 | Total_Business_Value (0.061) | Average_Business_Value (0.013) |
+| 1 | Year_of_Joining (0.189) | Quarterly_Rating (0.390) |
+| 2 | Quarterly_Rating (0.114) | Year_of_Joining (0.341) |
+| 3 | Reportings (0.109) | Reportings (0.166) |
+| 4 | Total_Business_Value (0.071) | Average_Business_Value (0.016) |
+| 5 | Income (0.048) | Total_Business_Value (0.012) |
 
-Both models agree that rating, tenure-related features and business value carry most of the predictive signal.
+Both models agree that quarterly rating, joining year, number of monthly reports and business value carry most of the predictive signal.
 
 ---
 
@@ -184,17 +185,18 @@ Both models agree that rating, tenure-related features and business value carry 
 Being clear about the limits of the analysis:
 
 - **Small group behind the income finding:** only about 1.8% of drivers (≈44) show an income increase, so the 6.82% attrition figure rests on a very small sample. Treat it as a strong signal worth investigating, not a precise estimate.
-- **Possible target leakage in features:**
-  - `Tenure_Years` is computed from `LastWorkingDate` for churned drivers (and from the last reporting date for active ones), so it partly encodes the outcome. `LastWorkingDate` and `Tenure_Days` were dropped, but `Tenure_Years` was retained.
-  - `Reportings` (number of monthly records) and last-observed `Quarterly_Rating`/`Grade` are only fully known after a driver has left or the period has ended.
-  - `Year_of_Joining` ranks highly partly because of the observation window (2019–2020).
+- **Target leakage handled, some risk remains:**
+  - `Tenure_Years` is derived from `LastWorkingDate` for churned drivers, so it was **identified as leaking and removed** from the model. Re-running without it lowered ROC-AUC only slightly (e.g. Gradient Boosting 0.9677 → 0.9607).
+  - `Reportings` (number of monthly records) and last-observed `Quarterly_Rating`/`Grade` are only fully known after a driver has left or the period has ended, and `Year_of_Joining` partly reflects the observation window (2019–2020). These may still inflate performance.
 
-  These likely inflate the ROC-AUC of ~0.96–0.97. For a true early-warning model, retrain using only information available *before* the prediction date.
+  For a true early-warning model, retrain using only information available *before* the prediction date (e.g. first 3 months of activity).
+- **Tenure comparison is indicative only:** churned drivers' tenure ends at their last working date, while active drivers' tenure is measured to the end of the data, so the 0.48 vs 0.58 years comparison is biased.
 - **Date handling:** date strings were parsed without an explicit day-first format, and a few drivers show negative tenure (minimum −27 days). Specifying formats explicitly and validating joining vs reporting dates is recommended.
 - **Correlation ≠ causation:** low income, no rating improvement and city are associated with attrition, but this analysis does not establish causes.
 
 **Future work**
 
+- Run an ablation without `Reportings` and `Year_of_Joining` to measure how much of the score depends on them.
 - Use recent-window features: last 3-month income, rating and business-value trends.
 - Build cohort-level retention analysis by joining year/month.
 - Add time-based train/test splits and cost-sensitive threshold selection.
