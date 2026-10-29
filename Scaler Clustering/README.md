@@ -93,9 +93,9 @@ Hopkins statistic, elbow method, silhouette analysis, **K-Means**, and **hierarc
 - Hopkins statistic: **0.928** (strong clustering tendency).
 - Hierarchical clustering gives a similar split (silhouette 0.376); agreement with K-Means: **ARI = 0.654**.
 
-![K-Means segments](images/K-Means%20Segment.png)
+![K-Means segments](Images/K-Means%20Segment.png)
 
-![Elbow and silhouette](images/Elbow%20and%20Silhouette.png)
+![Elbow and silhouette](Images/Elbow%20and%20Silhouette.png)
 
 
 ## Key insights
