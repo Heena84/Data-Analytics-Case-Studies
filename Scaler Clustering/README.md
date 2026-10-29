@@ -93,6 +93,11 @@ Hopkins statistic, elbow method, silhouette analysis, **K-Means**, and **hierarc
 - Hopkins statistic: **0.928** (strong clustering tendency).
 - Hierarchical clustering gives a similar split (silhouette 0.376); agreement with K-Means: **ARI = 0.654**.
 
+![K-Means Segment](images/K-Means Segment.png)
+
+![Elbow and Silhouette](images/Elbow and Silhouette.png)
+
+
 ## Key insights
 
 - **CTC is extremely right-skewed** (skewness ≈ 16; median ₹9.5L vs mean ₹22.7L). Medians and log-scale analysis are essential.
