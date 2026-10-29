@@ -131,8 +131,8 @@ Hopkins statistic, elbow method, silhouette analysis, **K-Means**, and **hierarc
 
 **Option 2 — Locally**
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Heena84/Data-Analytics-Case-Studies/Scaler%20Clustering.git
+cd Data-Analytics-Case-Studies/Scaler%20Clustering
 pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 # place scaler_hashed_for_students.csv in this folder
 jupyter notebook Scaler_Clustering_Corrected_Final.ipynb
@@ -153,8 +153,8 @@ jupyter notebook Scaler_Clustering_Corrected_Final.ipynb
 ## Author
 
 **Heena**
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://www.linkedin.com/in/your-profile)
+- GitHub: [Heena84](https://github.com/your-username)
+- LinkedIn: www.linkedin.com/in/heena-khan-4227335b
 
 ---
 *This project was completed as part of a data science case study. The dataset belongs to Scaler and is used for educational purposes only.*
